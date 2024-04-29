@@ -627,7 +627,7 @@ function parseLine(line) {
 
 
 // get the data
-fetch("output.json")
+fetch("chunks.json")
   .then(function (response) {
     return response.json();
   })
